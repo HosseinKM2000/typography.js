@@ -1,0 +1,23 @@
+@font-face {
+    font-family: vazir;
+    src: url(./Font/Vazir-Bold.woff2);
+}
+
+html{
+    color: black;
+    font-family: vazir;
+}
+
+body{
+    margin: 0px;
+}
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 4rem; 
+}
